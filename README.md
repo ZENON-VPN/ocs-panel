@@ -11,29 +11,29 @@ badvpn : badvpn-udpgw port 7300
 nginx : 81
 
 __________________________________________________
-**วิธีติดตั้ง**
+#**วิธีติดตั้ง**
 
-OCS Panel Only
+#OCS Panel Only
 ```
 wget https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/OCSAutoScrptz.sh && chmod +x OCSAutoScrptz.sh && ./OCSAutoScrptz.sh
 ```
 
-OCS Panel & VPS
+#OCS Panel & VPS
 ```
 wget https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/VPSnOCScrptZ.sh && chmod +x VPSnOCScrptZ.sh && ./VPSnOCScrptZ.sh
 ```
 
-VPS Only (For Servers) 
+#VPS Only (For Servers) 
 ```
 wget https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/VPScrptZ.sh && chmod +x VPScrptZ.sh && ./VPScrptZ.sh
 ```
 
-Disable Change Password in Panel
+#Disable Change Password in Panel
 ```
 wget https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/DsblChngPW.sh && chmod +x DsblChngPW.sh && ./DsblChngPW.sh
 ```
 
-Updates : Kill Multilogin, Delete All Expired Users
+#Updates : Kill Multilogin, Delete All Expired Users
 ```
 cd && wget -O ClrkzOCSUpdate "https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/update-ocs.sh" && chmod +x ClrkzOCSUpdate && sed -i -e 's/\r$//' ClrkzOCSUpdate && ./ClrkzOCSUpdate && rm ClrkzOCSUpdate
 ```
