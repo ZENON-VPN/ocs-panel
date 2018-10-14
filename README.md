@@ -41,7 +41,7 @@ cd && wget -O ClrkzOCSUpdate "https://raw.githubusercontent.com/ZENON-VPN/ocs-pa
 __________________________________________________
 **NOTE**
 
- -ZENON-VPM.ML-
+ -ZENON-VPN.NET-
  
  **TimeZone**   :  Thailand
 ___________________________________________________
